@@ -51,7 +51,7 @@ seo:
 feed:
   # Customize the feed settings based on your blog
   path: feed.xml
-  url: https://your-domain.github.io
+  url: https://andrewjeffallen.github.io
 
 # GitHub Pages settings
 remote_theme: your_github_username/your-theme-repo

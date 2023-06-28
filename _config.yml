@@ -1,3 +1,59 @@
+# _config.yml
+
+# Site settings
+title: Your Name - Data Engineering and Consulting
+description: Data engineering and consulting services for the energy industry.
+baseurl: "" # leave this empty if your site is in the root domain
+
+# Build settings
 theme: jekyll-theme-minimal
-title: Andrew's homepage
-description: Website coming soon. Keep an eye on my project updates on this page!
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+
+# Navigation
+navbar_links:
+  - title: Home
+    url: /
+  - title: About
+    url: /about
+  - title: Services
+    url: /services
+  - title: Projects
+    url: /projects
+  - title: Blog
+    url: /blog
+
+# Exclude files and directories from the build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+
+# Custom variables
+energy_industry_skills:
+  - Data Engineering
+  - Data Analysis
+  - Business Intelligence
+  - Machine Learning
+  - Consulting
+
+# SEO settings
+seo:
+  type: website
+  title: Your Name - Data Engineering and Consulting
+  description: Data engineering and consulting services for the energy industry.
+  image: /assets/images/your-logo.png
+  twitter_username: your_twitter_handle
+  github_username: your_github_username
+
+# Jekyll Feed plugin settings
+feed:
+  # Customize the feed settings based on your blog
+  path: feed.xml
+  url: https://your-domain.github.io
+
+# GitHub Pages settings
+remote_theme: your_github_username/your-theme-repo

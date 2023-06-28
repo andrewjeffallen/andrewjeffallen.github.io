@@ -3,7 +3,6 @@
 # Site settings
 title: Your Name - Data Engineering and Consulting
 description: Data engineering and consulting services for the energy industry.
-baseurl: "" # leave this empty if your site is in the root domain
 
 # Build settings
 theme: jekyll-theme-minimal

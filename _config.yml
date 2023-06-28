@@ -46,12 +46,3 @@ seo:
   description: Data engineering and consulting services for the energy industry.
   image: IMG_0043.JPG
   github_username: andrewjeffallen
-
-# Jekyll Feed plugin settings
-feed:
-  # Customize the feed settings based on your blog
-  path: feed.xml
-  url: https://andrewjeffallen.github.io
-
-# GitHub Pages settings
-remote_theme: your_github_username/your-theme-repo

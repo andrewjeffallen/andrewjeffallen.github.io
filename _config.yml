@@ -45,7 +45,7 @@ seo:
   type: website
   title: Your Name - Data Engineering and Consulting
   description: Data engineering and consulting services for the energy industry.
-  image: /assets/images/profile-pic.png
+  image: IMG_0043.JPG
   github_username: andrewjeffallen
 
 # Jekyll Feed plugin settings
